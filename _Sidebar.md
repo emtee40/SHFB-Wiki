@@ -1,2 +1,4 @@
 - [[Home]]
+- [[System Requirements and Building the Code]]
+- [[Contributing]]
 - [[Project Road Map]]
