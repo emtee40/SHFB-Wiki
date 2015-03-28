@@ -32,7 +32,7 @@ If you would like to support this project, you can make a donation of any amount
 PayPal donation button below. If you would prefer to donate via check or money order (USD), please send me an
 e-mail at Eric@EWoodruff.us and I will reply with my mailing address.
 
-[![Make donations with PayPal - It's fast, free and secure!](https://raw.githubusercontent.com/EWSoftware/SHFB/master/Documentation/SandcastleBuilder/Media/PayPal.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WBPB4ML7YBUHW)
+[![Make donations with PayPal - It's fast, free and secure!](https://raw.githubusercontent.com/EWSoftware/SHFB/master/Documentation/SandcastleBuilder/media/PayPal.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WBPB4ML7YBUHW)
 
 The above method of donating is secure. PayPal guarantees your privacy and security. I never receive details
 of your payment other than the amount, your name, e-mail address, and any optionally entered information.
