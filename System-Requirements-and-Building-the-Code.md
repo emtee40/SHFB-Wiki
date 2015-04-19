@@ -102,13 +102,11 @@ Once built, rename the folder by removing the version number on the resulting ou
 you can copy the framework data folders form the installed release version of the Sandcastle Help File Builder.
 
 ## Building and Debugging the Projects
-To build the projects, open the solution file (_\*.sln_) for your version of Visual Studio in the
-*SHFB\Source\\* folder and build it.  Solution files for the individual projects can be found in each of the
+To build the projects, open the solution file (_\*.sln_) found in the *SHFB\Source\\* folder and build it.  Solution files for the individual projects can be found in each of the
 subfolders in the event you want to work on just one of the tools.  You can also run the *MasterBuild.bat*
 script from a command prompt to build the project as noted above.
 
-In order to debug the VSPackage project (*SandcastleBuilderPackage.sln* or
-*SandcastleBuilderPackage_VS2013.sln*):
+In order to debug the VSPackage project (*SandcastleBuilderPackage.sln*):
 
 * Set the *SandcastleBuilderPackage* project as the default project and then open its project properties.
 * Go to the **Debug** category.
