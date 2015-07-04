@@ -7,7 +7,7 @@
 In order to use Sandcastle and the Sandcastle Help File Builder (SHFB) you will need the following tools:
 
 Required:
-* .NET Framework 4.5 (Needed to run the Sandcastle and SHFB tools)
+* .NET Framework 4.5 or later (Needed to run the Sandcastle and SHFB tools)
 
 Optional:
 * HTML Help Workshop (Used for building Help 1 CHM files)
