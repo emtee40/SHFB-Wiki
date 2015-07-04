@@ -15,7 +15,6 @@ Optional:
 In order to build the source code you will need the following tools:
 
 Required:
-* .NET 4.5.1 (Used to build the reflection data)
 * Visual Studio 2013 Update 4 or later (Used to build the C# projects for the tools)
 * NuGet Package Manager Extension (Required to download the NuGet packages used by the main projects)
 
