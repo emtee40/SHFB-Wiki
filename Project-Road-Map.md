@@ -7,6 +7,6 @@ Below is a list of future enhancements and features for the Sandcastle tools and
   * Concurrent updates to static members.  Use thread-safe constructs where needed.
   * Use of non-thread-safe objects like the code colorizer.  Wrap them in ThreadLocal<T>?
   * Copying of content files.  Track source and destination files to copy in thread-safe constructs.  Then, when the component is disposed of, copy the content.
-  * TODO: Add issue link
-* Investigate whether or not a folder name can safely be introduced into the GUID and hashed member name naming methods to reduce the number of files in the root HTML output folder. TODO: Add issue link.
-* As time permits, add more information to the Sandcastle tools help file that describes the various tools and how they work. TODO: Add issue link.
+  * [Issue #2](https://github.com/EWSoftware/SHFB/issues/2).
+* Investigate whether or not a folder name can safely be introduced into the GUID and hashed member name naming methods to reduce the number of files in the root HTML output folder. [Issue #4](https://github.com/EWSoftware/SHFB/issues/4).
+* As time permits, add more information to the Sandcastle tools help file that describes the various tools and how they work. [Issue #1](https://github.com/EWSoftware/SHFB/issues/1).
