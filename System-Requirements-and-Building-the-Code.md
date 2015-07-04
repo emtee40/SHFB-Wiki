@@ -34,7 +34,7 @@ and their configuration files once they are built.  All of the projects place th
 the entire toolset can be tested in a common location that matches the release build folder layout.  Some of the
 key folders beneath it are listed below.
 
-*SHFB\Deploy\Data* - This folder contains the reflection data files for the core .NET Frameworks.  These are used during the MRefBuilder step to determine the framework assemblies and during the BuildAssembler step to insert information about the base .NET Framework class members.  The Reflection Data Manager tool is used to rebuild this information as it is not included with the source code.  The MasterBuild.bat script will generate reflection data for the latest version of the .NETFramework platform based on the versions available on your system.  To build reflection data for other platforms such as .NETCore, .NETPortable, .NETMicroFramework, Silverlight, WindowsPhone, and WindowsPhoneApp, see the Reflection Data Manager topic in the Sandcastle tools help file.
+*SHFB\Deploy\Data* - This folder contains the reflection data files for the core .NET Frameworks.  These are used during the *MRefBuilder* step to determine the framework assemblies and during the *BuildAssembler* step to insert information about the base .NET Framework class members.  The *Reflection Data Manager* tool is used to rebuild this information as it is not included with the source code.  The *MasterBuild.bat* script will generate reflection data for the latest version of the `.NETFramework` platform based on the versions available on your system.  To build reflection data for other platforms such as `.NETCore`, `.NETPortable`, `.NETMicroFramework`, `Silverlight`, `WindowsPhone`, and `WindowsPhoneApp`, see the *Reflection Data Manager* topic in the Sandcastle Tools help file.
 
 *SHFB\Deploy\Extras* - This folder contains optional tools that are not part of Sandcastle or SHFB such as the
 HTML to MAML converter and the web project code providers.
@@ -78,14 +78,12 @@ your changed version.
 Before using the source code version, you will need to build the tools and the reflection data files.  To do
 this, open a command prompt, change into the root folder, and run the *MasterBuild.bat* script.  This will build
 the tools and place them in the *SHFB\Deploy* folder ready for use.  By default, the Release version is built.
-To build a debug version, pass in the command line parameter *Debug*.  As noted above, the script will generate reflection data for the latest version of the .NETFramework platform based on the versions available on your system.  The reflection data files will be placed in the .\Deploy\Data\.NETFramework folder.  To build reflection data for other platforms such as .NETCore, .NETPortable, .NETMicroFramework, Silverlight, WindowsPhone, and WindowsPhoneApp, see the Reflection Data Manager topic in the Sandcastle tools help file.
+To build a debug version, pass in the command line parameter *Debug*.  As noted above, the script will generate reflection data for the latest version of the `.NETFramework` platform based on the versions available on your system.  The reflection data files will be placed in the *.\Deploy\Data\.NETFramework* folder.  To build reflection data for other platforms such as `.NETCore`, `.NETPortable`, `.NETMicroFramework`, `Silverlight`, `WindowsPhone`, and `WindowsPhoneApp`, see the *Reflection Data Manager* topic in the Sandcastle tools help file.
 
-As an alternative, you can copy the framework data folders form the installed release version of the Sandcastle Help File Builder.
+As an alternative, you can copy the reflection data folders from the installed release version of the Sandcastle Help File Builder.
 
 ## Building and Debugging the Projects
-To build the projects, open the solution file (_\*.sln_) found in the *SHFB\Source\\* folder and build it.  Solution files for the individual projects can be found in each of the
-subfolders in the event you want to work on just one of the tools.  You can also run the *MasterBuild.bat*
-script from a command prompt to build the project as noted above.
+To build the projects, open the solution file (_\*.sln_) found in the *SHFB\Source\\* folder and build it.  Solution files for the individual projects can be found in each of the subfolders in the event you want to work on just one of the tools.  You can also run the *MasterBuild.bat* script from a command prompt to build the project as noted above.
 
 In order to debug the VSPackage project (*SandcastleBuilderPackage.sln*):
 
