@@ -78,7 +78,7 @@ your changed version.
 Before using the source code version, you will need to build the tools and the reflection data files.  To do
 this, open a command prompt, change into the root folder, and run the *MasterBuild.bat* script.  This will build
 the tools and place them in the *SHFB\Deploy* folder ready for use.  By default, the Release version is built.
-To build a debug version, pass in the command line parameter *Debug*.  As noted above, the script will generate reflection data for the latest version of the `.NETFramework` platform based on the versions available on your system.  The reflection data files will be placed in the *.\Deploy\Data\.NETFramework* folder.  To build reflection data for other platforms such as `.NETCore`, `.NETPortable`, `.NETMicroFramework`, `Silverlight`, `WindowsPhone`, and `WindowsPhoneApp`, see the *Reflection Data Manager* topic in the Sandcastle tools help file.
+To build a debug version, pass in the command line parameter *Debug*.  As noted above, the script will generate reflection data for the latest version of the `.NETFramework` platform based on the versions available on your system.  The reflection data files will be placed in the *.\Deploy\Data\\.NETFramework* folder.  To build reflection data for other platforms such as `.NETCore`, `.NETPortable`, `.NETMicroFramework`, `Silverlight`, `WindowsPhone`, and `WindowsPhoneApp`, see the *Reflection Data Manager* topic in the Sandcastle tools help file.
 
 As an alternative, you can copy the reflection data folders from the installed release version of the Sandcastle Help File Builder.
 
