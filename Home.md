@@ -23,7 +23,6 @@ The help files contained in the project downloads may need to be unblocked befor
 
 ## Online Help and Guides
 * [Sandcastle Help File Builder](http://EWSoftware.github.io/SHFB)
-* [Sandcastle Tools](http://EWSoftware.github.io/SandcastleTools)
 * [Sandcastle MAML Guide](http://EWSoftware.github.io/MAMLGuide)
 * [Sandcastle XML Comments Guide](http://EWSoftware.github.io/XMLCommentsGuide)
 
