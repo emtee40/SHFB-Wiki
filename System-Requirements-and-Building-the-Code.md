@@ -15,7 +15,7 @@ Optional:
 In order to build the source code you will need the following tools:
 
 Required:
-* Visual Studio 2013 Update 4 or later (Used to build the C# projects for the tools)
+* Visual Studio 2015 Update 3 or later (Used to build the C# projects for the tools)
 * NuGet Package Manager Extension (Required to download the NuGet packages used by the main projects)
 
 Optional:
