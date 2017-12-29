@@ -29,6 +29,6 @@ should be sorted alphabetically.  Place `System.` namespaces at the top and blan
 level groups.  Remove any unused namespaces to avoid unnecessary clutter.
 4. Use Allman style braces where each brace begins on a new line. A single line statement block can go without
 braces but the block must be properly indented on its own line.
-5. Do not insert spaces after keywords in control flow statements (use `if(a < b)` instead of `if (a < b)`).
+5. Do not insert spaces after keywords in control flow statements (use `if(a < b)` not `if (a < b)`).
 6. Use `camelCase` private members without leading underscores or other such prefixes like `m_`.
 7. Always specify the visibility even if it is the default (i.e. `private string foo` not `string foo`).
