@@ -15,11 +15,10 @@ Optional:
 In order to build the source code you will need the following tools:
 
 Required:
-* Visual Studio 2015 Update 3 or later (Used to build the C# projects for the tools)
-* NuGet Package Manager Extension (Required to download the NuGet packages used by the main projects)
+* Visual Studio 2017 (15.5) or later (Used to build the C# projects for the tools)
 
 Optional:
-* Visual Studio SDK for your version of Visual Studio (Required for VSPackage development)
+* Visual Studio extension development workload for your version of Visual Studio (Required for VSPackage development)
 * Wix 3.x Toolset (Used to create the MSI installer).
 
 ## Folder Layout
