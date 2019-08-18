@@ -18,8 +18,9 @@ Required:
 * Visual Studio 2017 (15.5) or later (Used to build the C# projects for the tools)
 
 Optional:
-* Visual Studio extension development workload for your version of Visual Studio (Required for VSPackage development)
-* Wix 3.x Toolset (Used to create the MSI installer).
+* Visual Studio extension development workload for your version of Visual Studio.  Required for VSPackage development.
+* F# language support which is available as part of the .NET Desktop Development workload or separately as an individual component.  Required to rebuild the .NET Framework reflection data sets.  See below for more information.
+* Wix 3.x Toolset.  Used to create the MSI installer.
 
 ## Folder Layout
 *Deployment* - This folder contains the deployment resources (the installer and all related files).  These are
@@ -79,7 +80,7 @@ this, open a command prompt, change into the root folder, and run the *MasterBui
 the tools and place them in the *SHFB\Deploy* folder ready for use.  By default, the Release version is built.
 To build a debug version, pass in the command line parameter *Debug*.  As noted above, the script will generate reflection data for the latest version of the `.NETFramework` platform based on the versions available on your system.  The reflection data files will be placed in the *.\Deploy\Data\\.NETFramework* folder.  To build reflection data for other platforms such as `.NETCore`, `.NETPortable`, `.NETMicroFramework`, `Silverlight`, `WindowsPhone`, and `WindowsPhoneApp`, see the *Reflection Data Manager* topic in the Sandcastle Tools help file.
 
-As an alternative, you can copy the reflection data folders from the installed release version of the Sandcastle Help File Builder.
+As an alternative, you can copy the reflection data folders from the installed release version of the Sandcastle Help File Builder or extract them from the related NuGet packages and copy them to the locations noted above.
 
 ## Building and Debugging the Projects
 To build the projects, open the solution file (_\*.sln_) found in the *SHFB\Source\\* folder and build it.  Solution files for the individual projects can be found in each of the subfolders in the event you want to work on just one of the tools.  You can also run the *MasterBuild.bat* script from a command prompt to build the project as noted above.
