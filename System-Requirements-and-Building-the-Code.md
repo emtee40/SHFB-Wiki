@@ -15,11 +15,10 @@ Optional:
 In order to build the source code you will need the following tools:
 
 Required:
-* Visual Studio 2017 (15.5) or later (Used to build the C# projects for the tools)
+* Visual Studio 2022 or later (Used to build the C# projects for the tools)
 
 Optional:
 * Visual Studio extension development workload for your version of Visual Studio.  Required for VSPackage development.
-* F# language support which is available as part of the .NET Desktop Development workload or separately as an individual component.  Required to rebuild the .NET Framework reflection data sets.  See below for more information.
 * Wix 3.x Toolset.  Used to create the MSI installer.
 
 ## Folder Layout
@@ -69,7 +68,7 @@ In order to debug the VSPackage project (*VSIX_2017.sln* or *VSIX_2022.sln*):
 * Go to the **Debug** category.
 * For the **Start Action** option, set it to **Start external program**, click the "..." button after the text
 box, navigate to the installation folder for your version of Visual Studio and select the *devenv.exe* file in
-that folder (i.e. *C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe*).
+that folder (i.e. *C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe*).
 * For the **Command line arguments** option, enter the value `/rootsuffix Exp`.
 * When you run the project, it should start a new instance of Visual Studio using the experimental instance
 settings.
